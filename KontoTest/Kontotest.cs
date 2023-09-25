@@ -11,7 +11,7 @@ namespace KontoTest
 
             Konto kontoTest = new Konto(startKapital);
 
-            Assert.AreEqual(100, kontoTest.Guthaben);
+            Assert.AreEqual(200, kontoTest.Guthaben);
         }
     }
 }
